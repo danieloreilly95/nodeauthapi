@@ -1,0 +1,22 @@
+{
+  "name": "nodeauthapi",
+  "version": "1.0.0",
+  "description": "JWT",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-jwt-authz": "^1.0.0",
+    "express-unless": "^0.5.0",
+    "jsonwebtoken": "^8.2.0",
+    "massive": "^4.7.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.34.0",
+    "sequelize-cli": "^4.0.0"
+  }
+}
